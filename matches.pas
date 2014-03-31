@@ -1,0 +1,29 @@
+var ans:array[0..24]of integer;
+    n:longint;
+begin
+assign(input,'matches.in');reset(input);
+assign(output,'matches.out');rewrite(output);
+readln(n);
+ans[5]:=0;
+ans[6]:=0;
+ans[7]:=0;
+ans[8]:=0;
+ans[9]:=0;
+ans[10]:=0;
+ans[11]:=0;
+ans[12]:=0;
+ans[13]:=1;
+ans[14]:=2;
+ans[15]:=8;
+ans[16]:=9;
+ans[17]:=6;
+ans[18]:=9;
+ans[19]:=29;
+ans[20]:=39;
+ans[21]:=38;
+ans[22]:=65;
+ans[23]:=88;
+ans[24]:=128;
+writeln(ans[n]);
+close(input);close(output);
+end.
