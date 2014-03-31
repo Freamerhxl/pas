@@ -1,6 +1,7 @@
 var data:array[0..50001,0..2]of longint;
        a,b:array[0..50001]of longint;
     i,j,n,ans,temp:longint;
+	abcd:longint;
 begin
   assign(input,'fire.in');reset(input);
   assign(output,'fire.out');rewrite(output);
